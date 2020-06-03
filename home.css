@@ -1,0 +1,133 @@
+.navbar{
+  
+  
+}
+
+.navbar-nav > .nav-item{
+  margin-right:50px;
+  font-size: larger;
+}
+
+.activeItem{
+  border-bottom: 4px #ffca04 solid;
+}
+
+.navbar-brand{
+
+  left: 8%;
+  margin:0;
+  bottom:10%;
+}
+
+
+#view2 .lead{
+  min-height: 20vh;
+  background-color: whitesmoke;
+  text-align: center;
+  
+}
+
+#view2 .lead h2{
+  display: block;
+  padding-top: 40px !important;
+}
+
+.card{
+  /*max-height: 380vh !important;*/
+  margin-top: 10px;
+  border: 2px white solid !important;
+}
+
+
+.jumbotron {
+  margin-top: 170px !important;
+  background-color: white !important;
+  background-image: url("./binarymap.jpg");
+  background-size: 100% 100%;
+  max-height: 480px !important;
+}
+
+.jumbotron h1{
+  margin-top: 20px;
+  text-align: center;
+  word-spacing: 2em;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700 !important;
+}
+
+
+.lead{
+  text-align: center;
+  margin-top: 90px;
+  font-size: 50px !important;
+  line-height: 55px;
+  font-weight: 700 !important;
+}
+
+.lead2{
+
+  text-align: center;
+  background-color: whitesmoke;
+  margin-bottom:20px;
+}
+
+.lead2 h2{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.underline{
+  border-bottom: 2px #ffca04 solid;
+  padding-top: 40px;
+}
+
+.arrow{
+  color: black !important;
+  background-color: #ffca04 !important;
+  border:1px black solid !important;
+  padding-right: 70px !important;
+  padding-left: 70px !important;
+
+}
+
+.btn{
+  margin-top: 45px;
+  margin-bottom: 40px !important;
+}
+/*.card{
+  width: 100% !important;
+}
+
+.card-img{
+  float:right !important;
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+  .jumbotron h1 {
+      font-size: 40px;
+      
+  }
+
+  #view2 .lead h2{
+    margin-top: 140px;
+  }
+
+  .lead{
+    font-size: 40px !important;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron h1 {
+      font-size: 6em;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron h1 {
+      font-size: 400%;
+  }
+}
+
