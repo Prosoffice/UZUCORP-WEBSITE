@@ -120,8 +120,17 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .jumbotron h1 {
-      font-size: 6em;
-  }
+    font-size: 40px;
+    
+}
+
+#view2 .lead h2{
+  margin-top: 140px;
+}
+
+.lead{
+  font-size: 40px !important;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
