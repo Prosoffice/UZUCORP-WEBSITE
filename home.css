@@ -90,7 +90,10 @@
     margin-bottom: 0px !important;
   }
   .temp{
-    margin-top: 0px !important;
+    margin-top: 40px !important;
+    background-color: whitesmoke;
+    min-height: 10vh;
+    margin-top: 30px !important;
   }
   .new{
     background-color: whitesmoke;
@@ -193,7 +196,7 @@
 
   .new{
     background-color: whitesmoke;
-    min-height: 20vh;
+    min-height: 85px;
   }
 
   #view2 .lead{
@@ -205,10 +208,15 @@
   }
   .underline{
     border-bottom: 2px #ffca04 solid;
-    padding-top: 40px;
+    margin-top: 90px !important;
   }
 
-
+  .temp{
+    margin-top: 40px !important;
+    background-color: whitesmoke;
+    min-height: 10vh;
+    margin-top: 30px !important;
+  }
   
   
   .lead2{
@@ -268,26 +276,56 @@ BELT
   background-color: white;
   border: 1px white solid;
   border-radius: 0%;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.apple img{
+  margin-left: 25%;
+  margin-top:8%;
 }
 
 .walmart{
   background-color: white;
   border: 1px white solid;
   border-radius: 0%;
-  
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
 } 
+
+.walmart img{
+  margin-top: 22%;
+  margin-left: 13%;
+}
 
 .emobil{
   background-color: white;
   border: 1px white solid;
   border-radius: 0%;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.emobil img{
+  margin-top: 26%;
+  margin-left:16%;
 }
 
 .at{
   background-color: white;
   border: 1px white solid;
   border-radius: 0%;
- 
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.at img{
+  margin-top: 23%;
+  margin-left:18%;
 }
 
 
@@ -301,6 +339,7 @@ BELT
   margin-top: 10px;
   border: 1px white solid !important;
 }
+
 
 
 
