@@ -135,6 +135,46 @@
     margin-top: -25px;
   }
 
+  blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+  }
+  
+  blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+  
+  blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  blockquote cite:before {
+    content: "\2014 \2009";
+  }
+
+  .inside{
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+
   .desktop{
     display: none !important;
   }
@@ -278,6 +318,41 @@
     display: none !important;
   }
 
+  blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+  }
+  
+  blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+  
+  blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  blockquote cite:before {
+    content: "\2014 \2009";
+  }
+  
+
 }
 
 /*
@@ -308,39 +383,6 @@ NAVBAR
     box-shadow: none;
 }
 
-blockquote {
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-style: italic;
-  width: 500px;
-  margin: 0.25em 0;
-  padding: 0.35em 40px;
-  line-height: 1.45;
-  position: relative;
-  color: #383838;
-}
-
-blockquote:before {
-  display: block;
-  padding-left: 10px;
-  content: "\201C";
-  font-size: 80px;
-  position: absolute;
-  left: -20px;
-  top: -20px;
-  color: #7a7a7a;
-}
-
-blockquote cite {
-  color: #999999;
-  font-size: 14px;
-  display: block;
-  margin-top: 5px;
-}
-
-blockquote cite:before {
-  content: "\2014 \2009";
-}
 
 
 /*
@@ -351,62 +393,6 @@ BELT
 .frame{
   width:350px
 }
-.apple{
-  background-color: white;
-  border: 1px white solid;
-  border-radius: 0%;
-  height: 200px;
-  border-radius: 20px;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
-}
-
-.apple img{
-  margin-left: 25%;
-  margin-top:8%;
-}
-
-.walmart{
-  background-color: white;
-  border: 1px white solid;
-  border-radius: 0%;
-  height: 200px;
-  border-radius: 20px;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
-} 
-
-.walmart img{
-  margin-top: 22%;
-  margin-left: 13%;
-}
-
-.emobil{
-  background-color: white;
-  border: 1px white solid;
-  border-radius: 0%;
-  height: 200px;
-  border-radius: 20px;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
-}
-
-.emobil img{
-  margin-top: 26%;
-  margin-left:16%;
-}
-
-.at{
-  background-color: white;
-  border: 1px white solid;
-  border-radius: 0%;
-  height: 200px;
-  border-radius: 20px;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
-}
-
-.at img{
-  margin-top: 23%;
-  margin-left:18%;
-}
-
 
 
 
