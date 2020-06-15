@@ -97,9 +97,9 @@
   }
   .new{
     background-color: whitesmoke;
-    min-height: 10vh;
+    min-height: 110px;
     margin-top: -30px !important;
-    
+
   }
   
   #view2 .lead{
@@ -110,10 +110,7 @@
     padding-top: 20px; 
     font-size: larger; 
   }
-  .underline{
-    border-bottom: 2px #ffca04 solid;
-    padding-top: 40px;
-  }
+
 
   .lead2{
     text-align: center;
@@ -123,10 +120,25 @@
   
   .lead2 h2{
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:10px;
     font-size: larger;
   }
 
+  .lead2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #ffca04; /* This creates the border. Replace black with whatever color you want. */
+    padding-bottom: 10px;
+    margin-top: -25px;
+  }
+
+  .desktop{
+    display: none !important;
+  }
+  
   
 }
 
@@ -178,7 +190,7 @@
 
   .arrow{
     color: black !important;
-    background-color: #ffca04 !important;
+    background-color: #FED80A !important;
     border:1px black solid !important;
     padding-right: 70px !important;
     padding-left: 70px !important;
@@ -189,10 +201,6 @@
     margin-top: 45px;
     margin-bottom: 40px !important;
   }
-
-
-
-
 
   .new{
     background-color: whitesmoke;
@@ -206,10 +214,6 @@
   #view2 .lead h2{
     padding-top: 20px;  
   }
-  .underline{
-    border-bottom: 2px #ffca04 solid;
-    margin-top: 90px !important;
-  }
 
   .temp{
     margin-top: 40px !important;
@@ -222,18 +226,58 @@
   .lead2{
     text-align: center;
     background-color: whitesmoke;
-    margin-bottom:20px;
+  }
+
+  .card-img{
+    height:350px;
+    width:350px !important;
+  }
+
+  .trust{
+    height:400vh;
+    margin-top: -1px !important;
   }
   
   .lead2 h2{
     padding-top:30px;
-    padding-bottom:30px;
   }
-  .card-img{
-    height:350px;
-    width:350px !important;
-    margin-bottom: 10px;
+
+  .lead2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #FED706; /* This creates the border. Replace black with whatever color you want. */
+    margin-top:-5px;
+    margin-bottom: 20px;
   }
+  
+  .card p {
+    font-size: larger;
+  }
+
+  .inside{
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .inside h3{
+    text-align: center !important;
+  }
+
+  .inside blockquote{
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 200px !important;
+    margin-top: 80px !important;
+  }
+
+  .mobile{
+    display: none !important;
+  }
+
 }
 
 /*
@@ -263,6 +307,41 @@ NAVBAR
     outline: none;
     box-shadow: none;
 }
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+
 
 /*
 ----------------------------------------------------
@@ -334,15 +413,15 @@ BELT
 
 
 
-.card{
-  max-height: 380vh !important;
-  margin-top: 10px;
-  border: 1px white solid !important;
+
+
+
+.temp2{
+  margin-top: 0px !important;
+  background-color: whitesmoke;
+  min-height: 5vh;
+  
 }
-
-
-
-
 
 
 
