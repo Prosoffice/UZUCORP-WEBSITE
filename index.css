@@ -91,7 +91,6 @@
     padding-right: 70px !important;
     padding-left: 70px !important;
     margin-top:25px;
-    margin-bottom: -45px !important;
   }
   .temp{
     margin-top: 40px !important;
@@ -102,6 +101,13 @@
   .new{
     background-color: whitesmoke;
     min-height: 110px;
+    margin-top: -30px !important;
+
+  }
+
+  .new1{
+    background-color: whitesmoke;
+    height: 70px;
     margin-top: -30px !important;
 
   }
@@ -338,6 +344,10 @@
   .btn{
     margin-top: 45px;
     margin-bottom: 40px !important;
+  }
+
+  button{
+    text-align: center !important;
   }
 
   .new{
