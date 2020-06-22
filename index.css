@@ -98,6 +98,14 @@
     min-height: 10vh;
     margin-top: 30px !important;
   }
+
+  .temp2{
+    margin-top: 0px !important;
+    background-color: whitesmoke;
+    height: 650px;
+
+  }
+  
   .new{
     background-color: whitesmoke;
     min-height: 110px;
@@ -145,6 +153,17 @@
     margin-top: -25px;
   }
 
+  .u:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #ffca04; /* This creates the border. Replace black with whatever color you want. */
+    padding-bottom: 10px;
+    margin-top: -25px;
+  }
+
   blockquote {
     font-family: Georgia, serif;
     font-size: 18px;
@@ -183,104 +202,261 @@
     border-radius: 20px;
     background-color: white;
   }
-  
 
+  .foot{
+    background-color:   #262626;
+    margin-top: -50px !important;
+    height: 400px;
+  }
+
+  .foot h5{
+    color: #FED706;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  small{
+    color:yellow;
+  }
+
+  .connect{
+    border:1px solid yellow;
+    background-color: yellow;
+  }
+
+  small p{
+    color: black;
+  }
+  
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
   .desktop{
     display: none !important;
   }
   
   .carousel-inner .active.left { left: -100%; }
-.carousel-inner .next        { left:  100% ; }
-.carousel-inner .prev		 { left: -100% ; }
-.active > div { display:none; }
-.active > div:nth-child(1) { display:block; }
-
-@media all and (transform-3d), (-webkit-transform-3d) {  
-      .carousel-inner > .item.next,
-      .carousel-inner > .item.active.right {
-        left: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-                transform: translate3d(100%, 0, 0);
-      }
-      .carousel-inner > .item.prev,
-      .carousel-inner > .item.active.left {
-        left: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-                transform: translate3d(-100%, 0, 0);
-      }    
-  }   
-
-@media (min-width: 768px) {
-	.carousel-inner .active.left { left: -50% ; }
-	.carousel-inner .next        { left:  50% ; }
-	.carousel-inner .prev		 { left: -50% ; }
-	.active > div:nth-child(1) { display:block; }
-  .active > div:nth-child(2) { display:block; }
-  
-  @media all and (transform-3d), (-webkit-transform-3d) {  
-      .carousel-inner > .item.next,
-      .carousel-inner > .item.active.right {
-        left: 0;
-        -webkit-transform: translate3d(50%, 0, 0);
-                transform: translate3d(50%, 0, 0);
-      }
-      .carousel-inner > .item.prev,
-      .carousel-inner > .item.active.left {
-        left: 0;
-        -webkit-transform: translate3d(-50%, 0, 0);
-                transform: translate3d(-50%, 0, 0);
-      }    
-  }   
-} 
-
-@media (min-width: 992px ) {
-	.carousel-inner .active.left { left: -33% ; }
-	.carousel-inner .next        { left:  33% ; }
-	.carousel-inner .prev		 { left: -33% ; }	
+  .carousel-inner .next        { left:  100% ; }
+  .carousel-inner .prev		 { left: -100% ; }
+  .active > div { display:none; }
   .active > div:nth-child(1) { display:block; }
-  .active > div:nth-child(2) { display:block; }
-  .active > div:nth-child(3) { display:block; }
-  
-  @media all and (transform-3d), (-webkit-transform-3d) {  
-      .carousel-inner > .item.next,
-      .carousel-inner > .item.active.right {
-        left: 0;
-        -webkit-transform: translate3d(33.33%, 0, 0);
-                transform: translate3d(33.33%, 0, 0);
-      }
-      .carousel-inner > .item.prev,
-      .carousel-inner > .item.active.left {
-        left: 0;
-        -webkit-transform: translate3d(-33.33%, 0, 0);
-                transform: translate3d(-33.33%, 0, 0);
-      }    
-  }      
-}
 
-@media (min-width: 1200px ) {
-	.carousel-inner .active.left { left: -25% ; }
-	.carousel-inner .next        { left:  25% ; }
-	.carousel-inner .prev		 { left: -25% ; }	
-  .active > div:nth-child(1) { display:block; }
-  .active > div:nth-child(2) { display:block; }
-  .active > div:nth-child(3) { display:block; }
-  .active > div:nth-child(4) { display:block; }
-  
   @media all and (transform-3d), (-webkit-transform-3d) {  
-      .carousel-inner > .item.next,
-      .carousel-inner > .item.active.right {
-        left: 0;
-        -webkit-transform: translate3d(25%, 0, 0);
-                transform: translate3d(25%, 0, 0);
-      }
-      .carousel-inner > .item.prev,
-      .carousel-inner > .item.active.left {
-        left: 0;
-        -webkit-transform: translate3d(-25%, 0, 0);
-                transform: translate3d(-25%, 0, 0);
-      }    
-  }      
-}
+        .carousel-inner > .item.next,
+        .carousel-inner > .item.active.right {
+          left: 0;
+          -webkit-transform: translate3d(100%, 0, 0);
+                  transform: translate3d(100%, 0, 0);
+        }
+        .carousel-inner > .item.prev,
+        .carousel-inner > .item.active.left {
+          left: 0;
+          -webkit-transform: translate3d(-100%, 0, 0);
+                  transform: translate3d(-100%, 0, 0);
+        }    
+    }   
+
+  @media (min-width: 768px) {
+    .carousel-inner .active.left { left: -50% ; }
+    .carousel-inner .next        { left:  50% ; }
+    .carousel-inner .prev		 { left: -50% ; }
+    .active > div:nth-child(1) { display:block; }
+    .active > div:nth-child(2) { display:block; }
+    
+    @media all and (transform-3d), (-webkit-transform-3d) {  
+        .carousel-inner > .item.next,
+        .carousel-inner > .item.active.right {
+          left: 0;
+          -webkit-transform: translate3d(50%, 0, 0);
+                  transform: translate3d(50%, 0, 0);
+        }
+        .carousel-inner > .item.prev,
+        .carousel-inner > .item.active.left {
+          left: 0;
+          -webkit-transform: translate3d(-50%, 0, 0);
+                  transform: translate3d(-50%, 0, 0);
+        }    
+    }   
+  } 
+
+  @media (min-width: 992px ) {
+    .carousel-inner .active.left { left: -33% ; }
+    .carousel-inner .next        { left:  33% ; }
+    .carousel-inner .prev		 { left: -33% ; }	
+    .active > div:nth-child(1) { display:block; }
+    .active > div:nth-child(2) { display:block; }
+    .active > div:nth-child(3) { display:block; }
+    
+    @media all and (transform-3d), (-webkit-transform-3d) {  
+        .carousel-inner > .item.next,
+        .carousel-inner > .item.active.right {
+          left: 0;
+          -webkit-transform: translate3d(33.33%, 0, 0);
+                  transform: translate3d(33.33%, 0, 0);
+        }
+        .carousel-inner > .item.prev,
+        .carousel-inner > .item.active.left {
+          left: 0;
+          -webkit-transform: translate3d(-33.33%, 0, 0);
+                  transform: translate3d(-33.33%, 0, 0);
+        }    
+    }      
+  }
+
+  @media (min-width: 1200px ) {
+    .carousel-inner .active.left { left: -25% ; }
+    .carousel-inner .next        { left:  25% ; }
+    .carousel-inner .prev		 { left: -25% ; }	
+    .active > div:nth-child(1) { display:block; }
+    .active > div:nth-child(2) { display:block; }
+    .active > div:nth-child(3) { display:block; }
+    .active > div:nth-child(4) { display:block; }
+    
+    @media all and (transform-3d), (-webkit-transform-3d) {  
+        .carousel-inner > .item.next,
+        .carousel-inner > .item.active.right {
+          left: 0;
+          -webkit-transform: translate3d(25%, 0, 0);
+                  transform: translate3d(25%, 0, 0);
+        }
+        .carousel-inner > .item.p.carousel-inner .next        { left:  100% ; }
+        .carousel-inner .prev		 { left: -100% ; }
+        .active > div { display:none; }
+        .active > div:nth-child(1) { display:block; }
+        
+        @media all and (transform-3d), (-webkit-transform-3d) {  
+              .carousel-inner > .item.next,
+              .carousel-inner > .item.active.right {
+                left: 0;
+                -webkit-transform: translate3d(100%, 0, 0);
+                        transform: translate3d(100%, 0, 0);
+              }
+              .carousel-inner > .item.prev,
+              .carousel-inner > .item.active.left {
+                left: 0;
+                -webkit-transform: translate3d(-100%, 0, 0);
+                        transform: translate3d(-100%, 0, 0);
+              }    
+          }   
+        
+        @media (min-width: 768px) {
+          .carousel-inner .active.left { left: -50% ; }
+          .carousel-inner .next        { left:  50% ; }
+          .carousel-inner .prev		 { left: -50% ; }
+          .active > div:nth-child(1) { display:block; }
+          .active > div:nth-child(2) { display:block; }
+          
+          @media all and (transform-3d), (-webkit-transform-3d) {  
+              .carousel-inner > .item.next,
+              .carousel-inner > .item.active.right {
+                left: 0;
+                -webkit-transform: translate3d(50%, 0, 0);
+                        transform: translate3d(50%, 0, 0);
+              }
+              .carousel-inner > .item.prev,
+              .carousel-inner > .item.active.left {
+                left: 0;
+                -webkit-transform: translate3d(-50%, 0, 0);
+                        transform: translate3d(-50%, 0, 0);
+              }    
+          }   
+        } 
+        
+        @media (min-width: 992px ) {
+          .carousel-inner .active.left { left: -33% ; }
+          .carousel-inner .next        { left:  33% ; }
+          .carousel-inner .prev		 { left: -33% ; }	
+          .active > div:nth-child(1) { display:block; }
+          .active > div:nth-child(2) { display:block; }
+          .active > div:nth-child(3) { display:block; }
+          
+          @media all and (transform-3d), (-webkit-transform-3d) {  
+              .carousel-inner > .item.next,
+              .carousel-inner > .item.active.right {
+                left: 0;
+                -webkit-transform: translate3d(33.33%, 0, 0);
+                        transform: translate3d(33.33%, 0, 0);
+              }
+              .carousel-inner > .item.prev,
+              .carousel-inner > .item.active.left {
+                left: 0;
+                -webkit-transform: translate3d(-33.33%, 0, 0);
+                        transform: translate3d(-33.33%, 0, 0);
+              }    
+          }      
+        }
+        
+        @media (min-width: 1200px ) {
+          .carousel-inner .active.left { left: -25% ; }
+          .carousel-inner .next        { left:  25% ; }
+          .carousel-inner .prev		 { left: -25% ; }	
+          .active > div:nth-child(1) { display:block; }
+          .active > div:nth-child(2) { display:block; }
+          .active > div:nth-child(3) { display:block; }
+          .active > div:nth-child(4) { display:block; }
+          
+          @media all and (transform-3d), (-webkit-transform-3d) {  
+              .carousel-inner > .item.next,
+              .carousel-inner > .item.active.right {
+                left: 0;
+                -webkit-transform: translate3d(25%, 0, 0);
+                        transform: translate3d(25%, 0, 0);
+              }
+              .carousel-inner > .item.prev,
+              .carousel-inner > .item.active.left {
+                left: 0;
+                -webkit-transform: translate3d(-25%, 0, 0);
+                        transform: translate3d(-25%, 0, 0);
+              }    
+          }      
+        }
+        rev,
+        .carousel-inner > .item.active.left {
+          left: 0;
+          -webkit-transform: translate3d(-25%, 0, 0);
+                  transform: translate3d(-25%, 0, 0);
+        }    
+    }      
+  }
 
   
 }
@@ -382,7 +558,7 @@
   }
 
   .trust{
-    height:400vh;
+    height:50vh;
     margin-top: -1px !important;
   }
   
@@ -510,12 +686,6 @@ BELT
 
 
 
-.temp2{
-  margin-top: 0px !important;
-  background-color: whitesmoke;
-  min-height: 5vh;
-  
-}
 
 
 
