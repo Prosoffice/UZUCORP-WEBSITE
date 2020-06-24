@@ -550,6 +550,12 @@
   .lead2{
     text-align: center;
     background-color: whitesmoke;
+    height:110px;
+  }
+
+  .smoke{
+    background-color: whitesmoke;
+    height:550px;
   }
 
   .card-img{
@@ -558,7 +564,7 @@
   }
 
   .trust{
-    height:50vh;
+    height:60vh;
     margin-top: -1px !important;
   }
   
@@ -576,13 +582,24 @@
     margin-top:-5px;
     margin-bottom: 20px;
   }
+
+  .u:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #FED706; /* This creates the border. Replace black with whatever color you want. */
+    margin-top:-5px;
+    margin-bottom: 20px;
+  }
   
   .card p {
     font-size: larger;
   }
 
   .inside{
-    border:1px solid white;
+    border:1px solid black;
     border-radius: 20px;
     background-color: white;
   }
@@ -635,6 +652,75 @@
   blockquote cite:before {
     content: "\2014 \2009";
   }
+
+
+
+  .foot{
+    background-color:   #262626;
+    height: 500px;
+  }
+
+  .foot h2{
+    color: #FED706;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .foot p{
+    color:yellow;
+  }
+
+  .connect{
+    border:1px solid yellow;
+    background-color: yellow;
+  }
+
+  small p{
+    color: black;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
   
 
 }
