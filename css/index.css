@@ -1,0 +1,592 @@
+/*
+------------------------------------------
+
+------------------------------------------
+*/
+/*Tiny device(like my current phone:tecno-y2*/
+
+
+@media screen and (device-aspect-ratio: 2/3){
+  .card-img{
+    height:50% !important;
+    width:50% !important;
+  }
+  .arrow{
+    color: black !important;
+    background-color: #ffca04 !important;
+    border:1px black solid !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+  
+  }
+  
+  .btn{
+    margin-top: 85px;
+   
+  }
+
+
+  .new{
+    background-color: whitesmoke;
+    min-height: 10vh;
+    margin-top: 70px !important;
+  }
+  
+  #view2 .lead{
+    text-align: center;
+  }
+  
+  #view2 .lead h2{
+    padding-top: 20px; 
+    font-size: xx-small; 
+
+  }
+
+  
+
+}
+
+/*Small devices (tablets, 768px and up) */
+@media (max-width:992px) {
+  /*
+  ------------------------------------------------------
+  JUMBOTRON
+  ------------------------------------------------------
+  */
+  
+  .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+  .jumbotron {
+    margin-top: 170px !important;
+    background-color: white !important;
+    background-image: url('../img/binarymap.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+  .arrow{
+    margin-bottom: -3px ;
+  }
+  
+  .jumbotron h1{
+    font-size: 40px;
+    margin-top: 140px;
+    text-align: center;
+    word-spacing: 2em;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700 !important;
+  }
+  
+  .jumbotron .lead{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 21px !important;
+    line-height: 30px;
+   
+  }
+  
+  .arrow{
+    color: black !important;
+    background-color: #ffca04 !important;
+    border:1px black solid !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+    margin-top:25px;
+  }
+  .temp{
+    margin-top: 40px !important;
+    background-color: whitesmoke;
+    min-height: 10vh;
+    margin-top: 30px !important;
+  }
+
+  .temp2{
+    margin-top: 0px !important;
+    background-color: whitesmoke;
+    height: 650px;
+
+  }
+
+  .new{
+    background-color: whitesmoke;
+    min-height: 110px;
+    margin-top: -30px !important;
+
+  }
+
+  .new1{
+    background-color: whitesmoke;
+    height: 70px;
+    margin-top: -30px !important;
+
+  }
+  
+  .view2 .lead{
+    text-align: center;
+  }
+  
+  .view2 .lead h2{
+    padding-top: 20px; 
+    font-size: larger; 
+  }
+
+
+  .lead2{
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom:20px;
+  }
+  
+  .lead2 h2{
+    padding-top:30px;
+    padding-bottom:10px;
+    font-size: larger;
+  }
+
+  .lead2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #ffca04; /* This creates the border. Replace black with whatever color you want. */
+    padding-bottom: 10px;
+    margin-top: -25px;
+  }
+
+  .u:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #ffca04; /* This creates the border. Replace black with whatever color you want. */
+    padding-bottom: 10px;
+    margin-top: -25px;
+  }
+
+  blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+  }
+  
+  blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+  
+  blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  blockquote cite:before {
+    content: "\2014 \2009";
+  }
+
+  .inside{
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .foot{
+    background-color:   #262626;
+    margin-top: -50px !important;
+    height: 400px;
+  }
+
+  .foot h5{
+    color: #FED706;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  small{
+    color:yellow;
+  }
+
+  .connect{
+    border:1px solid yellow;
+    background-color: yellow;
+    border-radius: 20px;
+  }
+
+  small p{
+    color: black;
+  }
+  
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  
+  color: rgb(238, 205, 18);
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: white;
+  color: black;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: white;
+  color: black;
+}
+
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+
+.fa-skype {
+  background: white;
+  color: black;
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+}
+  .desktop{
+    display: none !important;
+  }
+  
+}
+
+/* Medium devices (desktops, 992px and up) 
+@media (min-width: 992px) {
+  WORK IN PROGRESS
+}
+
+/*Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron h1 {
+      font-size: 400%;
+  }
+
+  .jumbotron {
+    margin-top: 170px !important;
+    background-color: white !important;
+    background-image: url("../img/binarymap.png");
+    background-size: 100% 100%;
+    max-height: 480px !important;
+  }
+
+  .jumbotron h1{
+    margin-top: 20px;
+    text-align: center;
+    word-spacing: 2em;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700 !important;
+  }
+
+  .jumbotron .lead{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px !important;
+    line-height: 55px;
+    font-weight: 700 !important;
+  }
+
+  .arrow{
+    color: black !important;
+    background-color: #FED80A !important;
+    border:1px black solid !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+    
+
+  }
+
+  .btn{
+    margin-top: 45px;
+    margin-bottom: 40px !important;
+  }
+
+  button{
+    text-align: center !important;
+  }
+
+  .new{
+    background-color: whitesmoke;
+    min-height: 85px;
+  }
+
+  #view2 .lead{
+    text-align: center;
+  }
+
+  #view2 .lead h2{
+    padding-top: 20px;  
+  }
+
+  .temp{
+    margin-top: 40px !important;
+    background-color: whitesmoke;
+    min-height: 10vh;
+    margin-top: 30px !important;
+  }
+  
+  
+  .lead2{
+    text-align: center;
+    background-color: whitesmoke;
+    height:110px;
+  }
+
+  .smoke{
+    background-color: whitesmoke;
+    height:550px;
+  }
+
+  .card-img{
+    height:350px;
+    width:350px !important;
+  }
+
+  .trust{
+    height:60vh;
+    margin-top: -1px !important;
+  }
+  
+  .lead2 h2{
+    padding-top:30px;
+  }
+
+  .lead2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #FED706; /* This creates the border. Replace black with whatever color you want. */
+    margin-top:-5px;
+    margin-bottom: 20px;
+  }
+
+  .u:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid #FED706; /* This creates the border. Replace black with whatever color you want. */
+    margin-top:-5px;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: larger;
+  }
+
+  .inside{
+    border:1px solid black;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .inside h3{
+    text-align: center !important;
+  }
+
+  .inside blockquote{
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 200px !important;
+    margin-top: 80px !important;
+  }
+
+  .mobile{
+    display: none !important;
+  }
+
+  blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+  }
+  
+  blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+  
+  blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  blockquote cite:before {
+    content: "\2014 \2009";
+  }
+
+
+
+  .foot{
+    background-color:   #262626;
+    min-height: 50vh;
+  }
+
+  .foot h2{
+    color: #FED706;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .foot p{
+    color:yellow;
+  }
+
+  .connect{
+    border:1px solid yellow;
+    background-color: yellow;
+    border-radius: 20px;
+  }
+
+  small p{
+    color: black;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  
+  color: rgb(238, 205, 18);
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: white;
+  color: black;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: white;
+  color: black;
+}
+
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+
+.fa-skype {
+  background: white;
+  color: black;
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+}
+  
+
+}
+
+/*
+------------------------------------------
+NAVBAR
+------------------------------------------
+*/
+
+.navbar-nav > .nav-item{
+  margin-right:50px;
+  font-size: larger;
+}
+
+.activeItem{
+  border-bottom: 4px #ffca04 solid;
+}
+
+.navbar-brand{
+
+ /* left: 8%;*/
+  margin:0;
+  bottom:10%;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+/*
+----------------------------------------------------
+BELT
+----------------------------------------------------
+*/
+.frame{
+  width:350px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
